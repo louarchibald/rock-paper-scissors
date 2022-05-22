@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alice&family=Bebas+Neue&family=Bungee&family=DM+Serif+Display&family=Dosis:wght@300&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ url_for('static', filename='game.css') }}">
+
+{% block content %} 
+
+
+<head>
+        <title>{{ title }} - Winner </title>
+  </head>
+
+            <body>
+                <header>                </header>
+
+                <h1>Results: </h1>
+                <hgroup>
+                    <div>{{ player1.player_name }} picked {{player1.player_choice}}!</div>
+                    <div>{{ player2.player_name }} picked {{player2.player_choice}}!</div>
+                    <div>{{ winner.name }} is the winner! </div>
+                </hgroup>
+            
+
+            </body>
+</html>
+{%endblock%}

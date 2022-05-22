@@ -1,0 +1,20 @@
+body {
+    background-color: #14213d;
+    margin-left: 100px;
+    margin-top: 60px;
+    
+
+}
+
+h1 {
+    color: #fca311;
+    font-family: 'Bungee', cursive;
+    font-size: 65px;
+}
+
+hgroup {
+    font-size: 25px;
+    list-style-type: circle;
+    color: white;
+    font-family: 'Dosis', sans-serif;
+}

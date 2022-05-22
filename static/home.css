@@ -1,0 +1,39 @@
+body {
+    background-color: #14213d;
+    margin-left: 100px;
+    margin-top: 60px;
+    
+
+}
+
+h1 {
+    
+    color: #fca311;
+    font-family: 'Bungee', cursive;
+    font-size: 65px;
+}
+
+#home-page-rules h1 {
+    color: #8eb8e5;
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 20px;
+    list-style-type: circle;
+    color: white;
+    font-family: 'Dosis', sans-serif;
+}
+
+button {
+    border: 0;
+    border-radius: 5px;
+    background: #fca311;
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 22px;
+    width: 100px;
+    text-align: center;
+    font-family: 'Bungee', cursive;
+    cursor: grab;
+  }
